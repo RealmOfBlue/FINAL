@@ -1,9 +1,14 @@
 body {
-background-image: url("images/brainnet.JPG");
-}
+    background-image: url("threeshadow.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    }
+
 
 header {
-font-size: 8.1em;
-font-famliy: cursive;
+font-size: 2.3em;
+font-family: cursive;
+margin-left: 60%;
 
 }
