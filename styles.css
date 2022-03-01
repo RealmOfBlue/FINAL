@@ -44,8 +44,9 @@ header {
     margin-right: 10px;
     background-color: #0ca1b9;
     height: 85%;
-    border-radius: 100%;
+    border-radius: 30px;
     width: 32%;
+    /* border: 15px solid #201a06; */
 }
 
 
