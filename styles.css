@@ -10,8 +10,13 @@ body {
 
     }
 
+    .flex {
+        display: flex;
+    }
+
 main {
     padding-bottom: 29%;
+    /* overflow: hidden; */
     
 }
 footer {
@@ -31,9 +36,9 @@ header {
 
 
 header p {
-margin-top: 0.2%;
-margin-right: 10px;
-text-align: right;
+margin-top: 0.8%;
+margin-right: 2px;
+/* text-align: right; */
 font-size: 1.3em; 
 
 }
@@ -41,8 +46,8 @@ font-size: 1.3em;
 h1 {
     font-size: 4.5em;
     font-family: 'Monoton', cursive;
-    margin-left: auto;
-    margin-right: 10px;
+    margin-left: 0.8%;
+    margin-right: 2px;
     margin-bottom: 0.2%;
     text-align: right;
 
@@ -93,13 +98,8 @@ nav .active {
 
 
 
-
-
-
-
-
 /* MOBILE */
-@media(max-width: 850px) {
+@media(max-width: 900px) {
 
     main {
         padding-bottom: 5%;
@@ -107,7 +107,7 @@ nav .active {
     }
     header {
         float: none;
-        padding: 0%;
+        padding-bottom: 2%;
          margin: 0%;
     }
 
@@ -115,7 +115,7 @@ nav .active {
         font-size: 1.2em;
         text-align: center;
         color:#c7f9ff;
-        display: block;
+      
         
         
        
@@ -137,16 +137,26 @@ nav .active {
         border-radius: 100%;
         text-align: center;
         font-size: 0.2em;
-        padding: 2%;
+        padding: 1.5%;
         border: 2px solid #c7f9ff;
         
         
      }
+
+     nav a {
+         float: center;
+         margin-left: 30%;
+         margin-right: 40%;
+         /* margin-right: 20%;
+         margin-left: 10%; */
+         
+     }
+
      nav {
          text-align: center;
-         padding: 0%;
+         padding-top: 0%;
          margin: 0%;
-         display: block;
+         /* display: block; */
          
      }
 
@@ -157,10 +167,22 @@ nav .active {
         padding: 10%;
     
     }
+
 }
 
+/* MOBILE 2 */
+@media(max-width: 450px) {
+ nav a {
+    display:block;
+ }
+ nav li a {
+     padding: 1%;
+     text-align: center;
+     font-size: 0.0001%;
+ }
 
 
+}
 
 
 
