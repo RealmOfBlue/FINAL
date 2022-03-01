@@ -171,14 +171,15 @@ nav .active {
 }
 
 /* MOBILE 2 */
-@media(max-width: 350px) {
- nav a {
+@media(max-width: 300px) {
+ /* nav a {
     display:block;
- }
+ } */
  nav li a {
      padding: 1%;
      text-align: center;
      font-size: 0.3em;
+     display: inline-block;
  }
 
 
