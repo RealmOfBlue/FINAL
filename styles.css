@@ -132,7 +132,7 @@ nav .active {
     border-radius: 30px;
     text-align: center;
     margin-block-end: 1%;
-    float: left;
+    /* float: left; */
     color: #201a06;
     text-decoration: none;
     padding: 2%;
@@ -140,9 +140,18 @@ nav .active {
 
  }
 
- #soo {
-     width: 30%;
+ #eyo {
+     
+     float: left;
+     
+
  }
+ 
+ .eyy img {
+     width: 50%;
+     margin-left: 80%;
+ }
+
  table {
     border-bottom:6px solid #0ca1b9;
     border-top:6px solid #0ca1b9;
