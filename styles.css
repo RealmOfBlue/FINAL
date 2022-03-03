@@ -122,9 +122,9 @@ nav .active {
 
 
 
-.eyy {
-    /* margin-left: 3%;
-    margin-right: 3%; */
+/* .eyy {
+    margin-left: 3%;
+    margin-right: 3%; 
     margin-left: 3%;
     margin-right: 60%;
     font-size: 1.5em;
@@ -132,29 +132,37 @@ nav .active {
     border-radius: 30px;
     text-align: center;
     margin-block-end: 1%;
-    /* float: left; */
+    float: left;
+    color: #201a06;
+    text-decoration: none;
+    padding: 2%;
+    
+
+ } */
+
+ .eyyy {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1.5em;
+    background-color: #9dd8e0;
+    border-radius: 30px;
+    text-align: center;
+    margin-block-end: 1%;
     color: #201a06;
     text-decoration: none;
     padding: 2%;
     
 
  }
-
- #eyo {
+ .eyyy img {
+     width: 20%;
+     border-radius: 40px;
      
-     float: left;
-     
-
- }
- 
- .eyy img {
-     width: 50%;
-     margin-left: 80%;
  }
 
  table {
-    border-bottom:6px solid #0ca1b9;
-    border-top:6px solid #0ca1b9;
+    border-bottom:6px solid #273E47;
+    border-top:6px solid #273E47;
     margin-left: auto;
     margin-right: auto;
 
