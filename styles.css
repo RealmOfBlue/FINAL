@@ -61,7 +61,7 @@ margin-top: 0.8%;
 margin-right: 10px;
 text-align: right;
 font-size: 1.3em; 
-display: right;
+
 
 }
 
@@ -134,7 +134,7 @@ nav .active {
     border-radius: 30px;
     text-align: center;
     margin-block-end: 1%;
-    float: center;
+    float: none;
     color: #201a06;
     text-decoration: none;
     padding: 2%;
@@ -192,7 +192,7 @@ table img {
 
 td img {
 
- padding-block-end: auto;   
+ padding-block-end: 2%;   
 border-radius: 20px;
 }
 tr {
@@ -264,7 +264,7 @@ tr {
      }
 
      nav a {
-         float: center;
+         float: none;
          margin-left: 30%;
          margin-right: 40%;
          /* margin-right: 20%;
