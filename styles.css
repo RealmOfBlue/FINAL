@@ -76,7 +76,7 @@ h1 {
 
     }
 
-article {
+.article {
     background-image: url("threeshadow.jpeg");
     background-size: cover;
 
